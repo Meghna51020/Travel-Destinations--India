@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.hero video{
+    height: 1000px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content h1 :hover{
+    webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.bgv{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (max-aspect-ratio: 16/9){
+    .bvg{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (min-aspect-ratio: 16/9){
+    .bvg{
+        width: 100%;
+        height: auto;
+    }
+}
+.text{
+    text-align: center;
+    color: black;
+}
+.texts{
+    text-align: center;;
+}
+.img1{
+    background: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    color: black;
+}
+.sec{
+    color: black;
+}
+.sec1{
+    color: black;
+}
+#heads{
+    text-align: center;
+}
+.subheads{
+    text-align: left;
+    margin-left: 15px;
+}
+.contents{
+    text-align: left;
+    margin-left: 15px;
+}
+.tabhead{
+    margin: 20px;
+}
+.image{
+    margin: 5px;
+    border: 1px solid rgb(80, 236, 60);
+    float: left;
+    width: 390px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+}
+.border{
+    align-items: center;
+    width: 300px;
+}
+.social{
+    border: none;
+    max-width: 20px;
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+}
+#contact{
+    background: url("ker.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+.agra{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgi{
+    background: url("ker.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.textsagra{
+    text-align: center;
+    color: aliceblue;
+}
+.page{
+    color: black;
+}
+.containeragra{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.cards{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imageagra{
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+}
+.imageagra img{
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+.imageagra:hover img{
+    opacity: 1;
+}
+.details{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    transition-property: transform;
+}
+.imageagra:hover .details h3{
+    transform: translateY(-30px);
+}
+.pree{
+    margin: 30px 30px 0 30px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity, transform;
+}
+.imageagra:hover .details .pree{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+.agraaa{
+    background: url("taj1.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.go{
+    background: url("download.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.raja{
+    background: url("raj.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.hamp{
+    background: url("hampi.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.moon{
+    background: url("munar.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.kurg{
+    background: url("curg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.kulu{
+    background: url("man.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.shil{
+    background: url("shilong.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.leh{
+    background: url("leh.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.shim{
+    background: url("shimla.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.tiger{
+    background: url("tiger.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.nelli{
+    background: url("nelli.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.vaga{
+    background: url("vaga.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.athira{
+    background: url("athi.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.shola{
+    background: url("sho.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.thekk{
+    background: url("thek.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
